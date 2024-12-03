@@ -26,12 +26,12 @@ function Navbar() {
                 </div>
 
                 <div className={open ? "menu active" : "menu"}>
-                    <a href="/">Home</a>
-                    <a href="/">About</a>
-                    <a href="/">Contact</a>
-                    <a href="/">Agents</a>
-                    <a href="/">Sign in</a>
-                    <a href="/">Sign up</a>
+                    <a href="/" tabIndex="-1">Home</a>
+                    <a href="/" tabIndex="-1">About</a>
+                    <a href="/" tabIndex="-1">Contact</a>
+                    <a href="/" tabIndex="-1">Agents</a>
+                    <a href="/" tabIndex="-1">Sign in</a>
+                    <a href="/" tabIndex="-1">Sign up</a>
                 </div>
             </div>
         </nav>
